@@ -1,0 +1,48 @@
+#!/bin/bash
+
+# A simple shell script to demonstrate basic shell scripting
+
+# Function to create a directory
+create_directory() {
+    if [ ! -d "$1" ]; then
+        mkdir -p "$1"
+        echo "Directory '$1' created."
+    else
+        echo "Directory '$1' already exists."
+    fi
+}
+
+# Function to copy files
+copy_files() {
+    cp "$1" "$2"
+    echo "File '$1' copied to '$2'."
+}
+
+# Function to display system information
+show_system_info() {
+    echo "System Information:"
+    echo "-------------------"
+    uname -a
+    echo
+    echo "Disk Usage:"
+    df -h
+    echo
+    echo "Memory Usage:"
+    free -h
+}
+
+# Main script execution
+echo "Starting script..."
+
+# Create directories
+create_directory "example_dir"
+create_directory "backup_dir"
+
+# Copy files
+copy_files "example_file.txt" "backup_dir/example_file.txt"
+
+# Display system information
+# demo code
+show_system_info
+
+echo "Script completed."
