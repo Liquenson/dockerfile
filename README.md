@@ -1,1 +1,1 @@
-# A simple shell script to demonstrate basic shell scripting
+# A simple shell script to demonstrate basic shell scripting.

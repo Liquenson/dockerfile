@@ -1,4 +1,4 @@
-# demo.py
+# newdemo.py
 
 def greet_user(name):
     """Function to greet the user"""

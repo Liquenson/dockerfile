@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# A simple shell script to demonstrate basic shell scripting
-
-# Function to create a directory
 create_directory() {
     if [ ! -d "$1" ]; then
         mkdir -p "$1"
@@ -12,13 +9,11 @@ create_directory() {
     fi
 }
 
-# Function to copy files
 copy_files() {
     cp "$1" "$2"
     echo "File '$1' copied to '$2'."
 }
 
-# Function to display system information
 show_system_info() {
     echo "System Information:"
     echo "-------------------"
@@ -31,18 +26,15 @@ show_system_info() {
     free -h
 }
 
-# Main script execution
 echo "Starting script..."
 
-# Create directories
+
 create_directory "example_dir"
 create_directory "backup_dir"
 
-# Copy files
+
 copy_files "example_file.txt" "backup_dir/example_file.txt"
 
-# Display system information
-# demo code
 show_system_info
 
 echo "Script completed."
