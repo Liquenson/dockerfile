@@ -38,3 +38,4 @@ copy_files "example_file.txt" "backup_dir/example_file.txt"
 show_system_info
 
 echo "Script completed."
+#test

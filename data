@@ -1,0 +1,9 @@
+Cómo usar este script:
+Guarda el script en un archivo, por ejemplo, recetas.sh.
+Haz el archivo ejecutable con el comando: chmod +x recetas.sh.
+Ejecuta el script con ./recetas.sh.
+Descripción de las funciones:
+mostrar_menu: Muestra el menú de opciones para el usuario.
+agregar_receta: Permite al usuario ingresar información sobre una nueva receta y la guarda en el archivo recetas.txt.
+listar_recetas: Muestra todas las recetas almacenadas en el archivo.
+buscar_receta: Permite al usuario buscar recetas por el nombre del paciente.

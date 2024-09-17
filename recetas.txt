@@ -1,0 +1,6 @@
+Paciente: alex
+Medicamento: pastilla
+Dosis: 3 veces
+Observaciones: mas
+------------------------------
+new test

@@ -86,3 +86,4 @@ echo "Arquitectura de Docker y archivos de configuración creados."
 docker-compose up -d
 
 echo "Servicios de Docker iniciados."
+#test
